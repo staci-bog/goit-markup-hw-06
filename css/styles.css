@@ -534,6 +534,7 @@
   .footer-icons {
     display: inline-flex;
     padding-inline: 0;
+    margin-top: 0;
   }  
   .footer-icons  .social-item:hover,
   .footer-icons  .social-item:focus {
@@ -557,6 +558,7 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
+    margin-right: 8px;
   }
 
   .sbr-button {
@@ -569,6 +571,14 @@
     border-radius: 4px;
     border-color: var(--accent-color);
     cursor: pointer;
+    position: relative;
+  }
+  .sbr-button svg {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom: 10px;
+    right: 30px;
   }
   /*modal window*/
   .modal-backdrop {
