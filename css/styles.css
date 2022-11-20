@@ -571,7 +571,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 528px;
-    height: 581px;
+    height: 620px;
     background: var(--primary-white-color) ;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
@@ -747,7 +747,7 @@ border-color: var(--accent-color);
   color: var(--primary-white-color);
   cursor: pointer;
   padding: 10px 80px;
-  margin: 30px 165px 30px 165px;
+  margin: 30px 120px 40px 120px;
 }
 
   /* portfolio */
